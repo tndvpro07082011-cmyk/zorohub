@@ -608,6 +608,7 @@ input[type="text"]:focus {
                                 <th>Hạng</th>
                                 <th>Tên</th>
                                 <th>Điểm</th>
+                                <th>IP</th>
                             </tr>
                         </thead>
                         <tbody id="leaderboardBody">
@@ -627,70 +628,18 @@ input[type="text"]:focus {
         const GITHUB_CONFIG = {
             username: 'tndvpro07082011-cmyk',
             repo: 'zorohub',
-            file: 'zorohub.txt',
-            apiUrl: 'https://api.github.com/repos/tndvpro07082011-cmyk/zorohub/contents/zorohub.txt'
+            file: 'zorohub.json',
+            apiUrl: 'https://api.github.com/repos/tndvpro07082011-cmyk/zorohub/contents/zorohub.json'
         };
 
-        // Fallback questions data
-        const FALLBACK_QUESTIONS = [
-            {
-                question: "What is the capital of France?",
-                options: ["London", "Berlin", "Paris", "Madrid"],
-                correct: 2
-            },
-            {
-                question: "Which planet is known as the Red Planet?",
-                options: ["Venus", "Mars", "Jupiter", "Saturn"],
-                correct: 1
-            },
-            {
-                question: "What is the largest ocean on Earth?",
-                options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-                correct: 3
-            },
-            {
-                question: "Who wrote 'Romeo and Juliet'?",
-                options: ["Jane Austen", "William Shakespeare", "Charles Dickens", "Mark Twain"],
-                correct: 1
-            },
-            {
-                question: "What is the chemical symbol for gold?",
-                options: ["Go", "Gd", "Au", "Ag"],
-                correct: 2
-            },
-            {
-                question: "In what year did World War II end?",
-                options: ["1943", "1944", "1945", "1946"],
-                correct: 2
-            },
-            {
-                question: "What is the smallest prime number?",
-                options: ["0", "1", "2", "3"],
-                correct: 2
-            },
-            {
-                question: "Which country has the most population?",
-                options: ["India", "United States", "Russia", "Brazil"],
-                correct: 0
-            },
-            {
-                question: "What is the speed of light?",
-                options: ["300,000 km/s", "150,000 km/s", "500,000 km/s", "100,000 km/s"],
-                correct: 0
-            },
-            {
-                question: "Who is known as the father of computer science?",
-                options: ["Alan Turing", "Steve Jobs", "Bill Gates", "Linus Torvalds"],
-                correct: 0
-            }
-        ];
+        // No fallback questions - app requires GitHub connection
 
         // Firebase configuration
         const FIREBASE_URL = 'https://tndv-1f0b0-default-rtdb.firebaseio.com';
 
-        // Active questions (will be loaded from GitHub or fallback)
+        // Active questions (will be loaded from GitHub only)
         let questions = [];
-        let questionsSource = 'loading'; // 'loading', 'github', 'fallback', 'error'
+        let questionsSource = 'loading'; // 'loading', 'github', 'error'
 
         // App state
         let currentScreen = 'welcome';
@@ -786,9 +735,8 @@ input[type="text"]:focus {
             card.innerHTML = `
                 <h1>🎯 Quiz Challenge</h1>
                 <div class="status-message error">✗ Failed to load questions from GitHub</div>
-                <p style="margin-top: 16px; margin-bottom: 24px;">${errorMessage}</p>
-                <button class="btn btn-primary" onclick="retryLoadQuestions()">Retry Loading from GitHub</button>
-                <button class="btn btn-secondary" onclick="useFallbackQuestions()">Use Default Questions</button>
+                <p style="margin-top: 16px; margin-bottom: 24px;">Failed to load questions from GitHub. Please check your internet connection or try again later.</p>
+                <button class="btn btn-primary" onclick="retryLoadQuestions()">Retry</button>
             `;
             showScreen('welcomeScreen');
         }
@@ -799,14 +747,6 @@ input[type="text"]:focus {
             await loadQuestionsFromGitHub();
         }
 
-        // Use fallback questions
-        function useFallbackQuestions() {
-            questions = FALLBACK_QUESTIONS;
-            questionsSource = 'fallback';
-            console.log(`Using ${questions.length} fallback questions`);
-            showWelcomeScreen();
-        }
-
         // Show welcome screen
         function showWelcomeScreen() {
             const welcomeScreen = document.getElementById('welcomeScreen');
@@ -815,8 +755,6 @@ input[type="text"]:focus {
             let sourceInfo = '';
             if (questionsSource === 'github') {
                 sourceInfo = '<div class="status-message success" style="margin-bottom: 16px;">✓ Questions loaded from GitHub</div>';
-            } else if (questionsSource === 'fallback') {
-                sourceInfo = '<div class="status-message loading" style="margin-bottom: 16px;">Using default questions</div>';
             }
             
             card.innerHTML = `
@@ -936,23 +874,46 @@ input[type="text"]:focus {
             showScreen('resultsScreen');
         }
 
-        // Submit score to Firebase
+        // Fetch user IP address
+        async function fetchUserIP() {
+            try {
+                const response = await fetch('https://api.ipify.org?format=json');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch IP');
+                }
+                const data = await response.json();
+                return data.ip;
+            } catch (error) {
+                console.error('Error fetching IP:', error);
+                return ''; // Return empty string if IP fetch fails
+            }
+        }
+
+        // Submit score to Firebase with IP address
         async function submitScore() {
             const submitStatus = document.getElementById('submitStatus');
             const submitBtn = document.getElementById('submitScoreBtn');
 
             submitBtn.disabled = true;
-            submitStatus.innerHTML = '<div class="status-message loading">Đang gửi điểm...</div>';
+            submitStatus.innerHTML = '<div class="status-message loading">Đang lấy thông tin...</div>';
 
             try {
+                // Step 1: Fetch user IP address
+                const userIP = await fetchUserIP();
+                
+                submitStatus.innerHTML = '<div class="status-message loading">Đang gửi điểm...</div>';
+
+                // Step 2: Prepare score data with IP
                 const scoreData = {
                     name: userName,
                     score: score,
                     totalQuestions: questions.length,
                     percentage: Math.round((score / questions.length) * 100),
+                    ip: userIP, // Store IP address
                     date: new Date().toISOString()
                 };
 
+                // Step 3: Submit to Firebase
                 const response = await fetch(`${FIREBASE_URL}/scores.json`, {
                     method: 'POST',
                     headers: {
@@ -1004,12 +965,23 @@ input[type="text"]:focus {
                 leaderboardStatus.innerHTML = '';
 
                 if (!data) {
-                    leaderboardBody.innerHTML = '<tr><td colspan="3" class="empty-state">Chưa có điểm số nào. Hãy là người đầu tiên!</td></tr>';
+                    leaderboardBody.innerHTML = '<tr><td colspan="4" class="empty-state">Chưa có điểm số nào. Hãy là người đầu tiên!</td></tr>';
                     return;
                 }
 
                 // Convert to array and sort by score
                 const scores = Object.values(data).sort((a, b) => b.score - a.score);
+
+                // Helper function to mask IP address
+                function maskIP(ip) {
+                    if (!ip) return 'N/A';
+                    const parts = ip.split('.');
+                    if (parts.length === 4) {
+                        return `${parts[0]}.${parts[1]}.***`;
+                    }
+                    // For IPv6 or other formats, show first part
+                    return ip.substring(0, ip.indexOf(':') !== -1 ? ip.indexOf(':') : 8) + '***';
+                }
 
                 // Display top scores
                 leaderboardBody.innerHTML = scores.map((entry, index) => {
@@ -1018,11 +990,14 @@ input[type="text"]:focus {
                     else if (index === 1) rankBadgeClass = 'silver';
                     else if (index === 2) rankBadgeClass = 'bronze';
 
+                    const maskedIP = maskIP(entry.ip);
+
                     return `
                         <tr>
                             <td><span class="rank-badge ${rankBadgeClass}">${index + 1}</span></td>
                             <td>${entry.name}</td>
                             <td><strong>${entry.score}</strong> / ${entry.totalQuestions} (${entry.percentage}%)</td>
+                            <td style="font-size: var(--font-size-sm); color: var(--color-text-secondary);">${maskedIP}</td>
                         </tr>
                     `;
                 }).join('');
