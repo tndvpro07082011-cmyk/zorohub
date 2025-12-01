@@ -1,216 +1,217 @@
-[{
-            question:
+[         
+          {
+            "question":
               "Khi chiếu ánh sáng trắng tới một quả táo, quả táo có màu đỏ. Khi chiếu ánh sáng đơn sắc màu vàng đến quả táo thì quả táo có màu gì?",
-            options: ["Đỏ", "Cam", "Vàng", "Đen"],
-            correct: 3,
+            "options": ["Đỏ", "Cam", "Vàng", "Đen"],
+            "correct": 3
           },
           {
-            question:
+            "question":
               "Hiện tượng chùm ánh sáng trắng đi qua lăng kính, bị phân tách thành các chùm sáng đơn sắc là hiện tượng gì?",
-            options: [
+            "options": [
               "Phản xạ toàn phần",
               "Phân tích ánh sáng",
               "Tán sắc ánh sáng",
-              "Truyền thẳng ánh sáng",
+              "Truyền thẳng ánh sáng"
             ],
-            correct: 1,
+            "correct": 1
           },
           {
-            question:
+            "question":
               "Tìm phát biểu sai: A. Ánh sáng trắng là hỗn hợp của nhiều ánh sáng đơn sắc có màu từ đỏ đến tím. B. Mặt trời và các vật được nung nóng phát ra ánh sáng trắng. C. Lăng kính có tác dụng tách riêng các chùm sáng có màu sắc khác nhau trong chùm sáng trắng. D. Ánh sáng trắng là hỗn hợp của 2 hay nhiều ánh sáng đơn sắc.",
-            options: ["A", "B", "C", "D"],
-            correct: 3,
+            "options": ["A", "B", "C", "D"],
+            "correct": 3
           },
           {
-            question:
+            "question":
               "Phát biểu nào sau đây sai khi nói về thấu kính hội tụ? A. Quang tâm O của thấu kính là một điểm nằm trên thấu kính mà mọi tia sáng tới O đều truyền thẳng qua thấu kính. B. Đường thẳng đi qua quang tâm O và vuông góc với tiết diện thẳng của thấu kính được gọi là trục chính của thấu kính. C. Khoảng cách từ quang tâm O đến tiêu điểm chính F của thấu kính gọi là tiêu cự thấu kính. D. Nếu tia sáng tới song song với trục chính của thấu kính đều cho tia ló đi qua tiêu điểm chính của thấu kính.",
-            options: ["A", "B", "C", "D"],
-            correct: 1,
+            "options": ["A", "B", "C", "D"],
+            "correct": 1
           },
           {
-            question:
+            "question":
               "Hình vẽ nào sau đây mô tả sai đường truyền của tia sáng qua thấu kính?",
-            options: ["Hình 1", "Hình 2", "Hình 3", "Hình 4"],
-            correct: 1,
+            "options": ["Hình 1", "Hình 2", "Hình 3", "Hình 4"],
+            "correct": 1
           },
           {
-            question:
+            "question":
               "Vật sáng AB đặt vuông góc với trục chính của thấu kính hội tụ và ở trong khoảng tiêu cự của thấu kính, qua thấu kính cho ảnh A'B' là?",
-            options: [
+            "options": [
               "Ảnh ảo, cùng chiều và nhỏ hơn vật.",
               "Ảnh ảo, cùng chiều và lớn hơn vật.",
               "Ảnh thật, cùng chiều và nhỏ hơn vật.",
-              "Ảnh thật, ngược chiều và lớn hơn vật.",
+              "Ảnh thật, ngược chiều và lớn hơn vật."
             ],
-            correct: 1,
+            "correct": 1
           },
           {
-            question:
+            "question":
               "Đặt một vật AB trước thấu kính hội tụ và vuông góc với trục chính của thấu kính. Ảnh của vật tạo bởi thấu kính không thể:",
-            options: [
+            "options": [
               "Cùng chiều với vật và lớn hơn vật.",
               "Cùng chiều với vật và nhỏ hơn vật.",
               "Ngược chiều với vật và lớn hơn vật.",
-              "Ngược chiều với vật và nhỏ hơn vật.",
+              "Ngược chiều với vật và nhỏ hơn vật."
             ],
-            correct: 1,
+            "correct": 1
           },
           {
-            question: "Trường hợp nào sau đây là thấu kính phân kì?",
-            options: [
+            "question": "Trường hợp nào sau đây là thấu kính phân kì?",
+            "options": [
               "Thấu kính có phần rìa mỏng hơn phần ở giữa đặt trong không khí.",
               "Chùm tia sáng song song tới trục chính của thấu kính sau khi đi qua thấu kính cho chùm tia ló hội tụ tại một điểm trên trục chính.",
               "Một vật sáng đặt trước thấu kính, qua thấu kính cho ảnh hứng được trên màn.",
-              "Thấu kính có phần rìa dày hơn phần ở giữa đặt trong không khí.",
+              "Thấu kính có phần rìa dày hơn phần ở giữa đặt trong không khí."
             ],
-            correct: 2,
+            "correct": 2
           },
           {
-            question: "Số bội giác của kính lúp cho biết điều gì?",
-            options: [
+            "question": "Số bội giác của kính lúp cho biết điều gì?",
+            "options": [
               "Ta có ảnh thật hay ảnh ảo.",
               "Ta có thể thấy được một ảnh lớn lên gấp bao nhiêu lần (tính theo góc) so với khi quan sát trực tiếp vật mà không dùng kính.",
               "Ta có ảnh bao nhiêu.",
-              "Ta có ảnh cao gấp mấy lần ảnh.",
+              "Ta có ảnh cao gấp mấy lần ảnh."
             ],
-            correct: 1,
+            "correct": 1
           },
           {
-            question: "Nghề nghiệp nào sau đây không cần sử dụng đến kính lúp?",
-            options: [
+            "question": "Nghề nghiệp nào sau đây không cần sử dụng đến kính lúp?",
+            "options": [
               "Một người gấp sách.",
               "Một kỹ sư nông nghiệp đang nghiên cứu về sâu bọ.",
               "Một học sinh đang quan sát bầu trời.",
-              "Một người thợ sửa đồng hồ.",
+              "Một người thợ sửa đồng hồ."
             ],
-            correct: 0,
+            "correct": 0
           },
           {
-            question: "Kính lúp đơn giản được cấu tạo bởi:",
-            options: [
+            "question": "Kính lúp đơn giản được cấu tạo bởi:",
+            "options": [
               "Thấu kính hội tụ có tiêu cự ngắn.",
               "Thấu kính phân kì có tiêu cự ngắn.",
               "Lăng kính thuỷ tinh có góc chiết quang nhỏ.",
-              "Thấu kính hội tụ có tiêu cự dài.",
+              "Thấu kính hội tụ có tiêu cự dài."
             ],
-            correct: 0,
+            "correct": 0
           },
           {
-            question:
+            "question":
               "Khi chiếu ánh sáng trắng tới một quả táo, quả táo có màu đỏ. Khi chiếu ánh sáng đơn sắc màu vàng đến quả táo thì quả táo có màu gì?",
-            options: ["Đỏ", "Cam", "Vàng", "Đen"],
-            correct: 3,
+            "options": ["Đỏ", "Cam", "Vàng", "Đen"],
+            "correct": 3
           },
           {
-            question:
+            "question":
               "Hiện tượng chùm ánh sáng trắng đi qua lăng kính, bị phân tách thành các chùm sáng đơn sắc là hiện tượng gì?",
-            options: [
+            "options": [
               "Phản xạ toàn phần",
               "Phân tích ánh sáng",
               "Tán sắc ánh sáng",
-              "Truyền thẳng ánh sáng",
+              "Truyền thẳng ánh sáng"
             ],
-            correct: 1,
+            "correct": 1
           },
           {
-            question:
+            "question":
               "Tìm phát biểu sai: A. Ánh sáng trắng là hỗn hợp của nhiều ánh sáng đơn sắc có màu từ đỏ đến tím. B. Mặt trời và các vật được nung nóng phát ra ánh sáng trắng. C. Lăng kính có tác dụng tách riêng các chùm sáng có màu sắc khác nhau trong chùm sáng trắng. D. Ánh sáng trắng là hỗn hợp của 2 hay nhiều ánh sáng đơn sắc.",
-            options: ["A", "B", "C", "D"],
-            correct: 3,
+            "options": ["A", "B", "C", "D"],
+            "correct": 3
           },
           {
-            question:
+            "question":
               "Phát biểu nào sau đây sai khi nói về thấu kính hội tụ? A. Quang tâm O của thấu kính là một điểm nằm trên thấu kính mà mọi tia sáng tới O đều truyền thẳng qua thấu kính. B. Đường thẳng đi qua quang tâm O và vuông góc với tiết diện thẳng của thấu kính được gọi là trục chính của thấu kính. C. Khoảng cách từ quang tâm O đến tiêu điểm chính F của thấu kính gọi là tiêu cự thấu kính. D. Nếu tia sáng tới song song với trục chính của thấu kính đều cho tia ló đi qua tiêu điểm chính của thấu kính.",
-            options: ["A", "B", "C", "D"],
-            correct: 1,
+            "options": ["A", "B", "C", "D"],
+            "correct": 1
           },
           {
-            question:
+            "question":
               "Hình vẽ nào sau đây mô tả sai đường truyền của tia sáng qua thấu kính?",
-            options: ["Hình 1", "Hình 2", "Hình 3", "Hình 4"],
-            correct: 1,
+            "options": ["Hình 1", "Hình 2", "Hình 3", "Hình 4"],
+            "correct": 1
           },
           {
-            question:
+            "question":
               "Vật sáng AB đặt vuông góc với trục chính của thấu kính hội tụ và ở trong khoảng tiêu cự của thấu kính, qua thấu kính cho ảnh A'B' là?",
-            options: [
+            "options": [
               "Ảnh ảo, cùng chiều và nhỏ hơn vật.",
               "Ảnh ảo, cùng chiều và lớn hơn vật.",
               "Ảnh thật, cùng chiều và nhỏ hơn vật.",
-              "Ảnh thật, ngược chiều và lớn hơn vật.",
+              "Ảnh thật, ngược chiều và lớn hơn vật."
             ],
-            correct: 1,
+            "correct": 1
           },
           {
-            question:
+            "question":
               "Đặt một vật AB trước thấu kính hội tụ và vuông góc với trục chính của thấu kính. Ảnh của vật tạo bởi thấu kính không thể:",
-            options: [
+            "options": [
               "Cùng chiều với vật và lớn hơn vật.",
               "Cùng chiều với vật và nhỏ hơn vật.",
               "Ngược chiều với vật và lớn hơn vật.",
-              "Ngược chiều với vật và nhỏ hơn vật.",
+              "Ngược chiều với vật và nhỏ hơn vật."
             ],
-            correct: 1,
+            "correct": 1
           },
           {
-            question: "Trường hợp nào sau đây là thấu kính phân kì?",
-            options: [
+            "question": "Trường hợp nào sau đây là thấu kính phân kì?",
+            "options": [
               "Thấu kính có phần rìa mỏng hơn phần ở giữa đặt trong không khí.",
               "Chùm tia sáng song song tới trục chính của thấu kính sau khi đi qua thấu kính cho chùm tia ló hội tụ tại một điểm trên trục chính.",
               "Một vật sáng đặt trước thấu kính, qua thấu kính cho ảnh hứng được trên màn.",
-              "Thấu kính có phần rìa dày hơn phần ở giữa đặt trong không khí.",
+              "Thấu kính có phần rìa dày hơn phần ở giữa đặt trong không khí."
             ],
-            correct: 2,
+            "correct": 2
           },
           {
-            question: "Số bội giác của kính lúp cho biết điều gì?",
-            options: [
+            "question": "Số bội giác của kính lúp cho biết điều gì?",
+            "options": [
               "Ta có ảnh thật hay ảnh ảo.",
               "Ta có thể thấy được một ảnh lớn lên gấp bao nhiêu lần (tính theo góc) so với khi quan sát trực tiếp vật mà không dùng kính.",
               "Ta có ảnh bao nhiêu.",
-              "Ta có ảnh cao gấp mấy lần ảnh.",
+              "Ta có ảnh cao gấp mấy lần ảnh."
             ],
-            correct: 1,
+            "correct": 1
           },
           {
-            question: "Nghề nghiệp nào sau đây không cần sử dụng đến kính lúp?",
-            options: [
+            "question": "Nghề nghiệp nào sau đây không cần sử dụng đến kính lúp?",
+            "options": [
               "Một người gấp sách.",
               "Một kỹ sư nông nghiệp đang nghiên cứu về sâu bọ.",
               "Một học sinh đang quan sát bầu trời.",
-              "Một người thợ sửa đồng hồ.",
+              "Một người thợ sửa đồng hồ."
             ],
-            correct: 0,
+            "correct": 0
           },
           {
-            question: "Kính lúp đơn giản được cấu tạo bởi:",
-            options: [
+            "question": "Kính lúp đơn giản được cấu tạo bởi:",
+            "options": [
               "Thấu kính hội tụ có tiêu cự ngắn.",
               "Thấu kính phân kì có tiêu cự ngắn.",
               "Lăng kính thuỷ tinh có góc chiết quang nhỏ.",
-              "Thấu kính hội tụ có tiêu cự dài.",
+              "Thấu kính hội tụ có tiêu cự dài."
             ],
-            correct: 0,
+            "correct": 0
           },
           {
-            question: "Trên giá đỡ của một kính lúp có ghi 5×. Kính lúp đó là:",
-            options: [
+            "question": "Trên giá đỡ của một kính lúp có ghi 5×. Kính lúp đó là:",
+            "options": [
               "Một thấu kính hội tụ có tiêu cự 2,5 cm.",
               "Một thấu kính phân kì có tiêu cự 2,5 cm.",
               "Một thấu kính hội tụ có tiêu cự 5 cm.",
-              "Một thấu kính phân kì có tiêu cự 5 cm.",
+              "Một thấu kính phân kì có tiêu cự 5 cm."
             ],
-            correct: 2,
+            "correct": 2
           },
           {
-            question:
+            "question":
               "Phát biểu nào sau đây là KHÔNG đúng? Khi quan sát một vật nhỏ qua kính lúp ta phải:",
-            options: [
+            "options": [
               "Đặt vật trong khoảng tiêu cự của kính để ảnh của vật nằm trong khoảng nhìn rõ của mắt.",
               "Điều chỉnh khoảng cách từ mắt đến vật sao cho ảnh của vật nằm trong khoảng nhìn rõ của mắt.",
               "Điều chỉnh khoảng cách từ vật đến kính sao cho ảnh của vật nằm trong khoảng nhìn rõ của mắt.",
               "Đặt kính sát vào mắt rồi đưa vật dịch chuyển kính ra xa tới khi quan sát được rõ vật.",
             ],
-            correct: 1,
+            "correct": 1
           }
 ]
