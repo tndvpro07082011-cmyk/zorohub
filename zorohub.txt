@@ -16,22 +16,22 @@
   },
   {
     "question": "Di truyền là hiện tượng truyền đạt các tính trạng của bố mẹ, tổ tiên cho các thế hệ con cháu, còn biến dị là hiện tượng con sinh ra có các đặc điểm khác nhau và khác bố mẹ. Hiện tượng di truyền và biến dị do nhân tố di truyền nằm chủ yếu trong nhân tế bào quy định.",
-    "options": ["Đúng", "Sai"],
+    "options": ["Đúng", "Sai", "Không chọn", "Chưa biết"],
     "correct": 0
   },
   {
     "question": "DNA có chức năng lưu trữ, bảo quản và truyền đạt thông tin di truyền; truyền đạt thông tin di truyền từ trong nhân tế bào ra tế bào chất.",
-    "options": ["Đúng", "Sai"],
+    "options": ["Đúng", "Sai", "Không chọn", "Chưa biết"],
     "correct": 1
   },
   {
     "question": "Nucleic acid là đại phân tử có cấu trúc đa phân mà đơn phân là bốn loại nucleotide adenine (A), thymine (T), guanine (G), cytosine (C).",
-    "options": ["Đúng", "Sai"],
+    "options": ["Đúng", "Sai", "Không chọn", "Chưa biết"],
     "correct": 1
   },
   {
     "question": "DNA giữa các cá thể cùng loài giống nhau về số lượng, thành phần và trình tự sắp xếp các nucleotide, đặc trưng cho loài.",
-    "options": ["Đúng", "Sai"],
+    "options": ["Đúng", "Sai", "Không chọn", "Chưa biết"],
     "correct": 1
   },
   {
