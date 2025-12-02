@@ -36,18 +36,32 @@
   },
   {
     "question": "Một gene có 150 chu kì xoắn. Hãy xác định số lượng nucleotide trên mRNA được phiên mã từ mạch khuôn của gene này?",
-    "answer": "1500 Nucleotide"
+    "options": ["3000 Nucleotide", "150 Nucleotide", "1500 Nucleotide", "750 Nucleotide"],
+    "correct": 2
   },
   {
     "question": "Một gene có 2400 nucleotide. Hãy xác định số liên kết hóa trị giữa các nucleotide trong gene?",
-    "answer": "2398 liên kết"
+    "options": ["2400 liên kết", "1200 liên kết", "2398 liên kết", "1199 liên kết"],
+    "correct": 2
   },
   {
     "question": "Hãy xác định kiểu gene của đời con trong phép lai: \"AaBb x aabb\":",
-    "answer": "AaBb; Aabb; aaBb; aabb"
+    "options": [
+      "1 Aabb : 1 aaBb",
+      "AaBb : Aabb : aaBb : aabb",
+      "1 AaBb : 1 aabb",
+      "Aabb; AAbb; aaBb; aabb"
+    ],
+    "correct": 1
   },
   {
-    "question": "Số amino acid cần sử dụng cho một quá trình dịch mã mRNA được phiên mã từ mạch khuôn của gene này? Cho đoạn trình tự nucleotide ở mạch khuôn của gene như sau: 3' - G-T-T-A-T-G-G-C-T-C-A-T-T... - 5' (xác định trình tự nucleotide ở mRNA được phiên mã từ mạch khuôn của đoạn gene trên). \nXác định trình tự amino acid được tạo thành sau dịch mã từ mạch khuôn trên. Biết rằng các bộ ba mã hóa các amino acid như sau: GGA: Glycine; UCC: serine; CAA: glutamine; CGA: arginine.",
-    "answer": "4 amino acid (Glu – Ser – Arg – Gly)"
+    "question": "Xác định trình tự amino acid được tạo thành sau dịch mã từ đoạn trình tự nucleotide mRNA phiên mã từ mạch khuôn (3' - GTT ATG GCT CAT T - 5') và số lượng amino acid. Biết các bộ ba mã hóa: GGA: Glycine; UCC: serine; CAA: glutamine; CGA: arginine.",
+    "options": [
+      "4 amino acid: Glu – Ser – Arg – Gly",
+      "3 amino acid: Val – Tyr – Arg",
+      "4 amino acid: Gly – Arg – Ser – Glu",
+      "3 amino acid: Gln – Tyr – Ser"
+    ],
+    "correct": 0
   }
 ]
