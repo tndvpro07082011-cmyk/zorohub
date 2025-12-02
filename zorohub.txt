@@ -1,6 +1,6 @@
 [
   {
-    "question": "Sắp xếp các sự kiện sau theo đúng diễn biến của quá trình tái bản DNA:\n1. Mạch mới tổng hợp và mạch khuôn xoắn với nhau tạo thành phân tử DNA mới.\n2. Các nucleotide trên mạch khuôn và nucleotide tự do liên kết với nhau theo nguyên tắc bổ sung.\n3. DNA tháo xoắn nhờ enzyme, hai mạch DNA tách nhau ra thành hai mạch khuôn.",
+    "question": "Sắp xếp các sự kiện sau theo đúng diễn biến của quá trình tái bản DNA: 1. Mạch mới tổng hợp và mạch khuôn xoắn với nhau tạo thành phân tử DNA mới; 2. Các nucleotide trên mạch khuôn và nucleotide tự do liên kết với nhau theo nguyên tắc bổ sung; 3. DNA tháo xoắn nhờ enzyme, hai mạch DNA tách nhau ra thành hai mạch khuôn.",
     "options": ["(2), (3), (1).", "(2), (1), (3).", "(3), (2), (1).", "(3), (1), (2)."],
     "correct": 2
   },
@@ -12,7 +12,7 @@
       "Gene (một đoạn DNA) → mARN → Tính trạng.",
       "Gene (một đoạn DNA) → Protein → mRNA → Tính trạng."
     ],
-    "correct": 3
+    "correct": 1
   },
   {
     "question": "Di truyền là hiện tượng truyền đạt các tính trạng của bố mẹ, tổ tiên cho các thế hệ con cháu, còn biến dị là hiện tượng con sinh ra có các đặc điểm khác nhau và khác bố mẹ. Hiện tượng di truyền và biến dị do nhân tố di truyền nằm chủ yếu trong nhân tế bào quy định.",
