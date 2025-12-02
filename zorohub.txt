@@ -1,68 +1,202 @@
-
 [
   {
-    "question": "Sắp xếp các sự kiện sau theo đúng diễn biến của quá trình tái bản DNA: 1. Mạch mới tổng hợp và mạch khuôn xoắn với nhau tạo thành phân tử DNA mới; 2. Các nucleotide trên mạch khuôn và nucleotide tự do liên kết với nhau theo nguyên tắc bổ sung; 3. DNA tháo xoắn nhờ enzyme, hai mạch DNA tách nhau ra thành hai mạch khuôn.",
-    "options": ["(2), (3), (1).", "(2), (1), (3).", "(3), (2), (1).", "(3), (1), (2)."],
-    "correct": 2
+    "question": "Kết luận nào sau đây không đúng?",
+    "options": [
+      "Kim loại dẻo nhất là sodium.",
+      "Kim loại có nhiệt độ nóng chảy thấp nhất là thủy ngân.",
+      "Kim loại có nhiệt độ nóng chảy cao nhất là tungsten.",
+      "Kim loại dẫn điện tốt nhất là bạc."
+    ],
+    "correct": 0
   },
   {
-    "question": "Sơ đồ mối quan hệ giữa gene và tính trạng nào dưới đây là đúng?",
+    "question": "Chất sau đây có ánh kim là",
     "options": [
-      "Gene (một đoạn DNA) → Protein → Tính trạng.",
-      "Gene (một đoạn DNA) → mARN → Protein → Tính trạng.",
-      "Gene (một đoạn DNA) → mARN → Tính trạng.",
-      "Gene (một đoạn DNA) → Protein → mRNA → Tính trạng."
+      "thủy tinh.",
+      "magnesium.",
+      "gỗ.",
+      "giấy."
     ],
     "correct": 1
   },
   {
-    "question": "Di truyền là hiện tượng truyền đạt các tính trạng của bố mẹ, tổ tiên cho các thế hệ con cháu, còn biến dị là hiện tượng con sinh ra có các đặc điểm khác nhau và khác bố mẹ. Hiện tượng di truyền và biến dị do nhân tố di truyền nằm chủ yếu trong nhân tế bào quy định.",
-    "options": ["Đúng", "Sai", "Không chọn", "Chưa biết"],
+    "question": "Sắp xếp các kim loại: Ca, Na, Fe, Cu, Zn, Ag, Al theo chiều hoạt động hóa học giảm dần",
+    "options": [
+      "Ca, Na, Fe, Cu, Zn, Ag, Al.",
+      "Cu, Zn, Ag, Al, Ca, Na, Fe.",
+      "Zn, Ag, Al, Ca, Cu, Na, Fe.",
+      "Na, Ca, Al, Zn, Fe, Cu, Ag."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Kim loại dẫn điện tốt nhất là",
+    "options": [
+      "Ag",
+      "Mg",
+      "Cu",
+      "Al"
+    ],
     "correct": 0
   },
   {
-    "question": "DNA có chức năng lưu trữ, bảo quản và truyền đạt thông tin di truyền; truyền đạt thông tin di truyền từ trong nhân tế bào ra tế bào chất.",
-    "options": ["Đúng", "Sai", "Không chọn", "Chưa biết"],
-    "correct": 1
-  },
-  {
-    "question": "Nucleic acid là đại phân tử có cấu trúc đa phân mà đơn phân là bốn loại nucleotide adenine (A), thymine (T), guanine (G), cytosine (C).",
-    "options": ["Đúng", "Sai", "Không chọn", "Chưa biết"],
-    "correct": 1
-  },
-  {
-    "question": "DNA giữa các cá thể cùng loài giống nhau về số lượng, thành phần và trình tự sắp xếp các nucleotide, đặc trưng cho loài.",
-    "options": ["Đúng", "Sai", "Không chọn", "Chưa biết"],
-    "correct": 1
-  },
-  {
-    "question": "Một gene có 150 chu kì xoắn. Hãy xác định số lượng nucleotide trên mRNA được phiên mã từ mạch khuôn của gene này?",
-    "options": ["3000 Nucleotide", "150 Nucleotide", "1500 Nucleotide", "750 Nucleotide"],
-    "correct": 2
-  },
-  {
-    "question": "Một gene có 2400 nucleotide. Hãy xác định số liên kết hóa trị giữa các nucleotide trong gene?",
-    "options": ["2400 liên kết", "1200 liên kết", "2398 liên kết", "1199 liên kết"],
-    "correct": 2
-  },
-  {
-    "question": "Hãy xác định kiểu gene của đời con trong phép lai: \"AaBb x aabb\":",
+    "question": "Cho dây nhôm vào trong ống nghiệm chứa dung dịch nào sẽ có phản ứng hóa học xảy ra?",
     "options": [
-      "1 Aabb : 1 aaBb",
-      "AaBb : Aabb : aaBb : aabb",
-      "1 AaBb : 1 aabb",
-      "Aabb; AAbb; aaBb; aabb"
+      "K2SO4",
+      "Na2SO4",
+      "MgSO4",
+      "CuSO4"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Cho một mẫu calcium vào dung dịch HCl, hiện tượng quan sát được là:",
+    "options": [
+      "Calcium không phản ứng.",
+      "Calcium không tan nhưng có khí thoát ra.",
+      "Calcium tan và khí thoát ra.",
+      "Calcium tan và không có khí thoát ra."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Kim loại nào sau đây tác dụng với nước thu được dung dịch base?",
+    "options": [
+      "Al.",
+      "K.",
+      "Ag.",
+      "Mg."
     ],
     "correct": 1
   },
   {
-    "question": "Xác định trình tự amino acid được tạo thành sau dịch mã từ đoạn trình tự nucleotide mRNA phiên mã từ mạch khuôn (3' - GTT ATG GCT CAT T - 5') và số lượng amino acid. Biết các bộ ba mã hóa: GGA: Glycine; UCC: serine; CAA: glutamine; CGA: arginine.",
+    "question": "Kim loại nào sau đây không phản ứng với dung dịch H2SO4 loãng?",
     "options": [
-      "4 amino acid: Glu – Ser – Arg – Gly",
-      "3 amino acid: Val – Tyr – Arg",
-      "4 amino acid: Gly – Arg – Ser – Glu",
-      "3 amino acid: Gln – Tyr – Ser"
+      "Ca",
+      "Al.",
+      "Ag.",
+      "Fe."
     ],
-    "correct": 0
+    "correct": 2
+  },
+  {
+    "question": "Cho dung dịch ZnCl2 có lẫn tạp chất CuCl2. Kim loại được dùng để làm sạch dung dịch ZnCl2 này là:",
+    "options": [
+      "Na.",
+      "Mg.",
+      "Zn.",
+      "Cu."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Hiện tượng xảy ra khi cho mẩu sodium (Na) vào nước dư là",
+    "options": [
+      "khí không màu thoát ra, dung dịch có màu xanh.",
+      "mẩu sodium chạy trên mặt nước và tan dần đến hết, khí không màu thoát ra.",
+      "khí màu nâu thoát ra, dung dịch có màu hồng.",
+      "mẩu sodium tan dần, nước sôi lên, có khí màu nâu thoát ra."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Trong số các kim loại: Al, Fe, Ag, Cu thì kim loại nào hoạt động hóa học mạnh nhất?",
+    "options": [
+      "Fe",
+      "Cu",
+      "Ag",
+      "Al"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Sản phẩm phản ứng giữa kim loại với oxygen (nếu có) thường là",
+    "options": [
+      "muối",
+      "oxide",
+      "hydroxide",
+      "acid"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Hai kim loại đều phản ứng với dung dịch AgNO3 tạo ra Ag là",
+    "options": [
+      "Fe, Au",
+      "Al, Ag",
+      "Cr, Ag",
+      "Al, Fe"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Nguyên liệu chính dùng để sản xuất nhôm là",
+    "options": [
+      "quặng manhetite.",
+      "quặng bauxite.",
+      "quặng sphalerite.",
+      "quặng hematite."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Để sản xuất nhôm trong công nghiệp người ta",
+    "options": [
+      "điện phân dung dịch AlCl3.",
+      "cho Mg vào dung dịch Al2(SO4)3.",
+      "cho CO dư đi qua Al2O3 nung nóng.",
+      "điện phân Al2O3 nóng chảy có mặt cryolite."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Nhóm các kim loại đều có thể điều chế bằng phương pháp thủy luyện là",
+    "options": [
+      "Ba, Au.",
+      "Al, Cr.",
+      "Mg, Cu.",
+      "Cu, Ag."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Kim cương là một dạng đơn chất của nguyên tố",
+    "options": [
+      "sulfur.",
+      "carbon.",
+      "chlorine.",
+      "iron."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Ở điều kiện thường, chlorine là chất",
+    "options": [
+      "lỏng, màu nâu đỏ.",
+      "khí, màu đỏ.",
+      "khí, màu vàng lục.",
+      "rắn, màu đen tím."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Các phi kim tác dụng oxygen thường tạo ra",
+    "options": [
+      "oxide base.",
+      "oxide acid",
+      "muối.",
+      "hydroxide."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Trong phản ứng hóa học, nguyên tử kim loại có xu hướng",
+    "options": [
+      "nhận electron.",
+      "tạo thành ion âm.",
+      "tạo thành ion.",
+      "cho electron."
+    ],
+    "correct": 3
   }
 ]
