@@ -1,242 +1,53 @@
 [
   {
-    "question": "Đồng hồ đo điện đa năng không đo được đại lượng nào sau đây?",
-    "options": [
-      "Cường độ dòng điện.",
-      "Hiệu điện thế.",
-      "Công suất.",
-      "Điện trở."
-    ],
+    "question": "Sắp xếp các sự kiện sau theo đúng diễn biến của quá trình tái bản DNA:\n1. Mạch mới tổng hợp và mạch khuôn xoắn với nhau tạo thành phân tử DNA mới.\n2. Các nucleotide trên mạch khuôn và nucleotide tự do liên kết với nhau theo nguyên tắc bổ sung.\n3. DNA tháo xoắn nhờ enzyme, hai mạch DNA tách nhau ra thành hai mạch khuôn.",
+    "options": ["(2), (3), (1).", "(2), (1), (3).", "(3), (2), (1).", "(3), (1), (2)."],
     "correct": 2
   },
   {
-    "question": "Chọn mô tả đúng nhất tại một điểm, trong các trường hợp sau, trường hợp nào vật không có thế năng?",
+    "question": "Sơ đồ mối quan hệ giữa gene và tính trạng nào dưới đây là đúng?",
     "options": [
-      "Một tay đang chuyền trên đường bằng của sân bay.",
-      "Một hòn sỏi đặt lăn lăn trên mặt sân.",
-      "Một hòn đá đang rơi từ trên mặt bàn.",
-      "Một vật chuyển động đều trên mặt bàn."
-    ],
-    "correct": 0
-  },
-  {
-    "question": "Từ cùng một vị trí ban đầu, một vật được ném ra với cùng một tốc độ theo 2 cách: Cách 1: Vật được ném theo phương ngang, tiếp xúc với mặt đất tại điểm A. Cách 2: Vật được ném chếch lên trên, tiếp xúc với mặt đất tại điểm B. Vận tốc ngay trước khi vật chạm đất tại A và B thỏa mãn:",
-    "options": [
-      "vₐ > v_b",
-      "vₐ < v_b",
-      "vₐ = v_b",
-      "v_b = 2vₐ"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "Cơ năng của vật chỉ chịu tác dụng của trọng lực được xác định bằng công thức:",
-    "options": [
-      "W = Ph + ½ m v²",
-      "W = Ph + ½ m v²",
-      "W = ½ Ph + ½ mv²",
-      "W = ½ Ph + ½ m²v²"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Đơn vị sau đây là đơn vị của công suất?",
-    "options": [
-      "J",
-      "N.m",
-      "W",
-      "N"
-    ],
-    "correct": 2
-  },
-  {
-    "question": "Hiện tượng khúc xạ ánh sáng là hiện tượng tia sáng tới khi gặp mặt phân cách giữa hai môi trường:",
-    "options": [
-      "bị hắt trở lại môi trường cũ.",
-      "bị hấp thụ hoàn toàn và không truyền vào môi trường trong suốt thứ hai.",
-      "tiếp tục đi thẳng vào môi trường trong suốt thứ hai.",
-      "bị gãy khúc ở mặt phân cách giữa hai môi trường và đi vào môi trường trong suốt thứ hai."
-    ],
-    "correct": 2
-  },
-  {
-    "question": "Cho biết tốc độ truyền ánh sáng trong chân không là c = 3×10⁸ m/s. Chiết suất tuyệt đối của thủy tinh là 1,5. Xác định tốc độ ánh sáng trong thủy tinh.",
-    "options": [
-      "2,10⁸ m/s",
-      "10⁸ m/s",
-      "4,5×10⁸ m/s",
-      "3×10⁸ m/s"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Phần nào của tia sáng bị phản xạ toàn phần?",
-    "options": [
-      "toàn bộ tia tới khi tới mặt phân cách.",
-      "một vài tia tới bị khúc xạ tại mặt phân cách.",
-      "toàn bộ tia tới bị phản xạ tại mặt phân cách.",
-      "một vài tia tới bị phản xạ tại mặt phân cách."
-    ],
-    "correct": 2
-  },
-  {
-    "question": "Lúc trưa nắng, mặt nước ở xa có vẻ như ướt, đó là hiện tượng gì?",
-    "options": [
-      "phản xạ toàn phần trên lớp không khí sát mặt đường và đi vào mắt.",
-      "phản xạ toàn phần trên lớp không khí sát mặt đường mà mắt nhìn thấy.",
-      "phản xạ toàn phần trên lớp không khí ngang tầm mắt và đi vào mắt.",
-      "phản xạ toàn phần trên lớp không khí ngang tầm mắt mà mắt nhìn thấy."
-    ],
-    "correct": 0
-  },
-  {
-    "question": "Điểm nào của thấu kính mà mọi tia sáng tới đều truyền thẳng mà không bị khúc xạ?",
-    "options": [
-      "tâm của mặt kính",
-      "đáy của ống kính",
-      "điểm sáng phía bên kia",
-      "đỉnh hoặc đáy của lăng kính"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Ánh sáng có màu như màu của cầu vồng.",
-    "options": [
-      "ánh sáng có một màu nhất định và không bị khúc xạ khi đi qua lăng kính",
-      "ánh sáng có một màu trắng và bị tán sắc khi đi qua lăng kính",
-      "ánh sáng có một màu nhất định và không bị tán sắc khi đi qua lăng kính",
-      "ánh sáng có một màu nhất định và bị tán sắc khi đi qua lăng kính"
+      "Gene (một đoạn DNA) → Protein → Tính trạng.",
+      "Gene (một đoạn DNA) → mARN → Protein → Tính trạng.",
+      "Gene (một đoạn DNA) → mARN → Tính trạng.",
+      "Gene (một đoạn DNA) → Protein → mRNA → Tính trạng."
     ],
     "correct": 3
   },
   {
-    "question": "Khi chiếu ánh sáng trắng tới một quả táo, quả táo có màu đỏ. Khi chiếu ánh sáng đơn sắc màu vàng đến quả táo thì quả táo có màu gì?",
-    "options": [
-      "Đỏ",
-      "Cam",
-      "Vàng",
-      "Đen"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "Hiện tượng chùm ánh sáng trắng đi qua lăng kính, bị phân tách thành các chùm sáng đơn sắc là hiện tượng gì?",
-    "options": [
-      "Phản xạ toàn phần",
-      "Phân tích ánh sáng",
-      "Tán sắc ánh sáng",
-      "Truyền thẳng ánh sáng"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Tìm phát biểu sai: A. Ánh sáng trắng là hỗn hợp của nhiều ánh sáng đơn sắc có màu từ đỏ đến tím. B. Mặt trời và các vật được nung nóng phát ra ánh sáng trắng. C. Lăng kính có tác dụng tách riêng các chùm sáng có màu sắc khác nhau trong chùm sáng trắng. D. Ánh sáng trắng là hỗn hợp của 2 hay nhiều ánh sáng đơn sắc.",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "correct": 3
-  },
-  {
-    "question": "Phát biểu nào sau đây sai khi nói về thấu kính hội tụ? A. Quang tâm O của thấu kính là một điểm nằm trên thấu kính mà mọi tia sáng tới O đều truyền thẳng qua thấu kính. B. Đường thẳng đi qua quang tâm O và vuông góc với tiết diện thẳng của thấu kính được gọi là trục chính của thấu kính. C. Khoảng cách từ quang tâm O đến tiêu điểm chính F của thấu kính gọi là tiêu cự thấu kính. D. Nếu tia sáng tới song song với trục chính của thấu kính đều cho tia ló đi qua tiêu điểm chính của thấu kính.",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Hình vẽ nào sau đây mô tả sai đường truyền của tia sáng qua thấu kính?",
-    "options": [
-      "Hình 1",
-      "Hình 2",
-      "Hình 3",
-      "Hình 4"
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Vật sáng AB đặt vuông góc với trục chính của thấu kính hội tụ và ở trong khoảng tiêu cự của thấu kính, qua thấu kính cho ảnh A'B' là?",
-    "options": [
-      "Ảnh ảo, cùng chiều và nhỏ hơn vật.",
-      "Ảnh ảo, cùng chiều và lớn hơn vật.",
-      "Ảnh thật, cùng chiều và nhỏ hơn vật.",
-      "Ảnh thật, ngược chiều và lớn hơn vật."
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Đặt một vật AB trước thấu kính hội tụ và vuông góc với trục chính của thấu kính. Ảnh của vật tạo bởi thấu kính không thể:",
-    "options": [
-      "Cùng chiều với vật và lớn hơn vật.",
-      "Cùng chiều với vật và nhỏ hơn vật.",
-      "Ngược chiều với vật và lớn hơn vật.",
-      "Ngược chiều với vật và nhỏ hơn vật."
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Trường hợp nào sau đây là thấu kính phân kì?",
-    "options": [
-      "Thấu kính có phần rìa mỏng hơn phần ở giữa đặt trong không khí.",
-      "Chùm tia sáng song song tới trục chính của thấu kính sau khi đi qua thấu kính cho chùm tia ló hội tụ tại một điểm trên trục chính.",
-      "Một vật sáng đặt trước thấu kính, qua thấu kính cho ảnh hứng được trên màn.",
-      "Thấu kính có phần rìa dày hơn phần ở giữa đặt trong không khí."
-    ],
-    "correct": 2
-  },
-  {
-    "question": "Số bội giác của kính lúp cho biết điều gì?",
-    "options": [
-      "Ta có ảnh thật hay ảnh ảo.",
-      "Ta có thể thấy được một ảnh lớn lên gấp bao nhiêu lần (tính theo góc) so với khi quan sát trực tiếp vật mà không dùng kính.",
-      "Ta có ảnh bao nhiêu.",
-      "Ta có ảnh cao gấp mấy lần ảnh."
-    ],
-    "correct": 1
-  },
-  {
-    "question": "Nghề nghiệp nào sau đây không cần sử dụng đến kính lúp?",
-    "options": [
-      "Một người gấp sách.",
-      "Một kỹ sư nông nghiệp đang nghiên cứu về sâu bọ.",
-      "Một học sinh đang quan sát bầu trời.",
-      "Một người thợ sửa đồng hồ."
-    ],
+    "question": "Di truyền là hiện tượng truyền đạt các tính trạng của bố mẹ, tổ tiên cho các thế hệ con cháu, còn biến dị là hiện tượng con sinh ra có các đặc điểm khác nhau và khác bố mẹ. Hiện tượng di truyền và biến dị do nhân tố di truyền nằm chủ yếu trong nhân tế bào quy định.",
+    "options": ["Đúng", "Sai"],
     "correct": 0
   },
   {
-    "question": "Kính lúp đơn giản được cấu tạo bởi:",
-    "options": [
-      "Thấu kính hội tụ có tiêu cự ngắn.",
-      "Thấu kính phân kì có tiêu cự ngắn.",
-      "Lăng kính thuỷ tinh có góc chiết quang nhỏ.",
-      "Thấu kính hội tụ có tiêu cự dài."
-    ],
-    "correct": 0
-  },
-  {
-    "question": "Trên giá đỡ của một kính lúp có ghi 5×. Kính lúp đó là:",
-    "options": [
-      "Một thấu kính hội tụ có tiêu cự 2,5 cm.",
-      "Một thấu kính phân kì có tiêu cự 2,5 cm.",
-      "Một thấu kính hội tụ có tiêu cự 5 cm.",
-      "Một thấu kính phân kì có tiêu cự 5 cm."
-    ],
-    "correct": 2
-  },
-  {
-    "question": "Phát biểu nào sau đây là KHÔNG đúng? Khi quan sát một vật nhỏ qua kính lúp ta phải:",
-    "options": [
-      "Đặt vật trong khoảng tiêu cự của kính để ảnh của vật nằm trong khoảng nhìn rõ của mắt.",
-      "Điều chỉnh khoảng cách từ mắt đến vật sao cho ảnh của vật nằm trong khoảng nhìn rõ của mắt.",
-      "Điều chỉnh khoảng cách từ vật đến kính sao cho ảnh của vật nằm trong khoảng nhìn rõ của mắt.",
-      "Đặt kính sát vào mắt rồi đưa vật dịch chuyển kính ra xa tới khi quan sát được rõ vật."
-    ],
+    "question": "DNA có chức năng lưu trữ, bảo quản và truyền đạt thông tin di truyền; truyền đạt thông tin di truyền từ trong nhân tế bào ra tế bào chất.",
+    "options": ["Đúng", "Sai"],
     "correct": 1
+  },
+  {
+    "question": "Nucleic acid là đại phân tử có cấu trúc đa phân mà đơn phân là bốn loại nucleotide adenine (A), thymine (T), guanine (G), cytosine (C).",
+    "options": ["Đúng", "Sai"],
+    "correct": 1
+  },
+  {
+    "question": "DNA giữa các cá thể cùng loài giống nhau về số lượng, thành phần và trình tự sắp xếp các nucleotide, đặc trưng cho loài.",
+    "options": ["Đúng", "Sai"],
+    "correct": 1
+  },
+  {
+    "question": "Một gene có 150 chu kì xoắn. Hãy xác định số lượng nucleotide trên mRNA được phiên mã từ mạch khuôn của gene này?",
+    "answer": "1500 Nucleotide"
+  },
+  {
+    "question": "Một gene có 2400 nucleotide. Hãy xác định số liên kết hóa trị giữa các nucleotide trong gene?",
+    "answer": "2398 liên kết"
+  },
+  {
+    "question": "Hãy xác định kiểu gene của đời con trong phép lai: \"AaBb x aabb\":",
+    "answer": "AaBb; Aabb; aaBb; aabb"
+  },
+  {
+    "question": "Số amino acid cần sử dụng cho một quá trình dịch mã mRNA được phiên mã từ mạch khuôn của gene này? Cho đoạn trình tự nucleotide ở mạch khuôn của gene như sau: 3' - G-T-T-A-T-G-G-C-T-C-A-T-T... - 5' (xác định trình tự nucleotide ở mRNA được phiên mã từ mạch khuôn của đoạn gene trên). \nXác định trình tự amino acid được tạo thành sau dịch mã từ mạch khuôn trên. Biết rằng các bộ ba mã hóa các amino acid như sau: GGA: Glycine; UCC: serine; CAA: glutamine; CGA: arginine.",
+    "answer": "4 amino acid (Glu – Ser – Arg – Gly)"
   }
 ]
